@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-size: 300;
+}
+.hero{
+    background-image: url(images/img1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    color: white;
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 60px;
+}
+.text{
+    font-size: 70px;
+}
+.black{
+    background-color: black;
+    padding: 20px;
+    
+}
+.black h2{
+    color: yellow;
+    font-weight: 400;
+    font-size: 72px;
+    text-align: center;
+}
+.black h2 span{
+    font-weight: 400;
+    font-size: 96px;
+}
+.work{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,ifr));
+}
+.card{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgba(1, 1, 1, 0.2);
+}
