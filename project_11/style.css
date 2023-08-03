@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: yellow
+
+}
+h1{
+    
+    font-size: 50px;
+    font-weight: normal;
+}
+h1:hover{
+    color: red;
+    background-color: white
+
+}
+p:hover{
+    color: red;
+    background-color: white;
+}
+video{
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+div.footer{
+    text-align:right
+    
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: auto;
+  }
+
+  td {
+    padding: 10px;
+    border: 1px solid black;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.5);
+  }
+
+  a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+  }
